@@ -38,13 +38,14 @@ function Footer(props) {
                 <a href="https://www.facebook.com/UTDURANGO" target="_blank">
                   Facebook
                 </a>
-              </li>              
+              </li>
             </ul>
           </nav>
           <div className="credits ml-auto">
             <div className="copyright">
-              &copy; {1900 + new Date().getYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Creative Tim
+              &copy; {new Date().getFullYear()}, UTD{" "}
+              <i className="fa fa-heart heart" /> Derechos Reservados Iván
+              García
             </div>
           </div>
         </Row>
@@ -55,7 +56,7 @@ function Footer(props) {
 
 Footer.propTypes = {
   default: PropTypes.bool,
-  fluid: PropTypes.bool
+  fluid: PropTypes.bool,
 };
 
 export default Footer;

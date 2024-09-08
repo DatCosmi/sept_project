@@ -56,7 +56,10 @@ function Dashboard() {
                       <p className="card-category">NOMBRE DEL ALUMNO:</p>
                       <CardTitle tag="p">García López Carlos Iván</CardTitle>
                       <p className="card-category">FECHA:</p>
-                      <CardTitle tag="p">5/Sept/2024</CardTitle>
+                      <CardTitle tag="p">
+                        {new Date().getDate()}/{new Date().getMonth()}/
+                        {new Date().getFullYear()}
+                      </CardTitle>
                       <p className="card-category">CARRERA</p>
                       <CardTitle tag="p">
                         Desarrollo y Gestión de Software
